@@ -1,0 +1,24 @@
+--- C:/!Storage2/учеба_лены/JAVA/#1_helloworld/src/Helloworld/Helloworld.java	—б мар 18 00:54:32 2017
++++ C:/!Storage2/учеба_лены/JAVA/#1_helloworld/src/Helloworld/Main.java	—б мар 18 01:02:58 2017
+@@ -3,5 +3 @@ package Helloworld;
+-/**
+- * Created by Lena on 18.03.2017.
+- */
+-public class Helloworld {
+-    public void hello()
++public class Main {
+@@ -9,4 +5,5 @@ package Helloworld;
+-    {
+-        for (int i = 0; i < 100; i++) {
+-            System.out.println("Hello World!");
+-        }
++    public static void main(String[] args) {
++        Helloworld a=new Helloworld();
++        a.hello();
++
++
+@@ -15,4 +11,0 @@ package Helloworld;
+-
+-
+-
+-
